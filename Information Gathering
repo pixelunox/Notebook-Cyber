@@ -1,0 +1,2 @@
+Mencari Informasi sebanyak-banyaknya
+nmap -p- 10.1.2.168 -Pn -sCV --min-rate 1000 -oN obscura.nmap
