@@ -5,3 +5,8 @@ gobuster dir \
 -w /usr/share/wordlists/dirb/common.txt \
 -x txt,json,js \
 -t 20
+
+gobuster dir \
+-u http://10.1.2.168:3000 \
+-w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
