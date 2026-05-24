@@ -1,0 +1,7 @@
+Mencari direktori
+
+gobuster dir \
+-u http://10.1.2.168:3000 \
+-w /usr/share/wordlists/dirb/common.txt \
+-x txt,json,js \
+-t 20
